@@ -1,0 +1,110 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+* {
+    box-sizing:border-box
+}
+*:focus {
+    outline:none
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+  line-height: 1;
+  direction: rtl;
+  font-family: 'iransans', sans-serif;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+    text-decoration: none;
+    color: initial;
+}
+.header-tapsi {
+    display: flex;
+    width: 100%;
+    padding: 0 10%;
+    background: #f8f8f8;
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-header-tapsi {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.menu-and-btn-header-tapsi {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.logo-tapsi-header {
+    display: flex;
+}
+.btn-header-tapsi {
+    background: #ff5722;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    padding: 7px 40px;
+    line-height: 30px;
+}
+.item-menu-tapsi-header:hover {
+    color: #ff5722;
+}
+.btn-header-tapsi:hover {
+    transform: scale(0.98);
+}
+.logo-tapsi-header:hover > svg path:last-child {
+    fill: #000;
+}
+.logo-tapsi-header:hover > svg path:not(:last-child) {
+    fill: #ff5722;
+}
+.item-menu-tapsi-header {
+    color: #545454;
+    font-size: 15px;
+}
